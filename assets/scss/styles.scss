@@ -1,2 +1,23 @@
-@import "bootstrap-angularTheme";
-@import "more-style";
+/*------------------*
+* Bootstrap
+*------------------*/
+@import "bootstrap/awt-bootstrap";
+//@import "more-style";
+
+/*------------------*
+* helpers
+*------------------*/
+@import "helpers/variables";
+
+/*------------------*
+* base
+*------------------*/
+@import "base/base";
+@import "base/fonts";
+@import "base/icons";
+
+/*------------------*
+* components
+*------------------*/
+@import "components/header";
+@import "components/footer";

@@ -15,19 +15,21 @@
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />	
 </head>
 <body <?php body_class(); ?>>
-<header class="container header">
-		<div class="row">
-			<div class="col-sm-7">
-				<h1>
-					<a ui-sref="list">
-						<?php echo bloginfo('name'); ?>
-					</a>
-				</h1>
-			</div>
-			<div class="col-sm-4 col-sm-offset-1">
-				<span>by: <a href="http://www.roysivan.com">Roy Sivan</a></span>
-			</div>
-		</div>
+<header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <h1>
+                        <a class="header__blog-title" ui-sref="list">
+                            <?php echo bloginfo('name'); ?>
+                        </a>
+                    </h1>
+                </div>
+                <div class="col-sm-4 col-sm-offset-1">
+                    <span>by: <a href="http://www.roysivan.com">Roy Sivan</a></span>
+                </div>
+            </div>
+        </div>	
 </header>
 <div class="container-fluid content-wrapper">
 	<div class="container">
