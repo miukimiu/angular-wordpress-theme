@@ -1,0 +1,17 @@
+// Typography
+body {
+    font-family: $awt-font-stack;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $awt-font-title;
+    font-weight: $awt-font-bold;
+    color: $brand-primary;
+}
+
