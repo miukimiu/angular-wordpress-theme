@@ -1,17 +1,17 @@
 		</div><!-- END CONTAINER -->  
 		</div><!-- END FLUID CONTAINER -->	
 		
-		<footer class="container-fluid">
+		<footer class="footer">
 			<div class="container">
-				<div class="row-fluid">
-					<div class="span5">
-					
+				<div class="row">
+					<div class="col-sm-6">
+						<span class="copyright">by: <a href="http://www.roysivan.com">Roy Sivan</a></span>
 					</div>
-					<div class="span5 offset2">
+					<div class="col-sm-6">
 					
 					</div>
 				</div>
-			</div>
+			</div>	
 		</footer>  
     <!-- WP FOOTER -->
   	<?php wp_footer(); ?>

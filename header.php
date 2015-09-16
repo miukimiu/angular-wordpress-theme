@@ -25,8 +25,12 @@
                         </a>
                     </h1>
                 </div>
-                <div class="col-sm-4 col-sm-offset-1">
-                    <span>by: <a href="http://www.roysivan.com">Roy Sivan</a></span>
+                <div class="col-sm-4">
+                    <nav>
+                        <ul>
+                            <li class="">Menu item A</li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>	

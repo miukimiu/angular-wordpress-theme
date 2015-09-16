@@ -47,6 +47,11 @@ gulp.task('angular', function(){
 		'node_modules/tinymce/skins/lightgray/*.css',
 	])
 	.pipe(gulp.dest('build/js/skins/lightgray'));
+
+	gulp.src([
+		'node_modules/bootstrap-sass/assets/fonts/bootstrap/*',
+	])
+	.pipe(gulp.dest('build/fonts/bootstrap'));
 	
 	gulp.src([
 		'node_modules/tinymce/skins/lightgray/fonts/*',

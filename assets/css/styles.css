@@ -6102,3 +6102,7 @@ embed {
 
 .header__blog-title {
   color: #fff; }
+
+.footer {
+  background: #eeeeee;
+  padding: 40px 0; }
