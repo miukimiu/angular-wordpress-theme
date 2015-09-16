@@ -19,14 +19,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-7">
-                    <h1>
-                        <a class="header__blog-title" ui-sref="list">
+                    <h1 class="header__blog-title">
+                        <a ui-sref="list">
                             <?php echo bloginfo('name'); ?>
                         </a>
                     </h1>
                 </div>
                 <div class="col-sm-4">
-                    <nav>
+                    <nav class="header__menu">
                         <ul>
                             <li class=""><a href=""><i class="ion-social-github"></i></a></li>
                             <li class=""><a href=""><i class="ion-search"></i></a></li>

@@ -7385,7 +7385,25 @@ embed {
   background: #3498db; }
 
 .header__blog-title {
-  color: #fff; }
+  padding: 0;
+  margin: 0; }
+  .header__blog-title a {
+    color: #fff; }
+
+.header__menu {
+  text-align: right; }
+  .header__menu ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0; }
+  .header__menu li {
+    margin-left: 10px;
+    display: inline-block;
+    list-style: none; }
+  .header__menu a {
+    color: #fff;
+    font-size: 30px;
+    padding: 2px; }
 
 .footer {
   background: #eeeeee;
