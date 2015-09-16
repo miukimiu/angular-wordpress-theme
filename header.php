@@ -28,7 +28,8 @@
                 <div class="col-sm-4">
                     <nav>
                         <ul>
-                            <li class="">Menu item A</li>
+                            <li class=""><a href=""><i class="ion-social-github"></i></a></li>
+                            <li class=""><a href=""><i class="ion-search"></i></a></li>
                         </ul>
                     </nav>
                 </div>

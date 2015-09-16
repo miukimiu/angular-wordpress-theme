@@ -49,9 +49,9 @@ gulp.task('angular', function(){
 	.pipe(gulp.dest('build/js/skins/lightgray'));
 
 	gulp.src([
-		'node_modules/bootstrap-sass/assets/fonts/bootstrap/*',
+		'assets/fonts/*',
 	])
-	.pipe(gulp.dest('build/fonts/bootstrap'));
+	.pipe(gulp.dest('build/fonts/'));
 	
 	gulp.src([
 		'node_modules/tinymce/skins/lightgray/fonts/*',
